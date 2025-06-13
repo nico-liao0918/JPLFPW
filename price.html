@@ -1,52 +1,90 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pricing</title>
-  <style>
-    body { font-family: sans-serif; padding: 2rem; background: #f8f9fa; }
-    h1 { color: #2c3e50; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
-    th, td { padding: 0.8rem; text-align: center; border: 1px solid #ccc; }
-    th { background: #2c3e50; color: white; }
-    tr:nth-child(even) { background: #f1f1f1; }
-    .note { margin-top: 1rem; font-size: 0.9rem; color: #555; }
-  </style>
-</head>
-<body>
-  <h1>Freelance Pricing</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Service</th>
-        <th>PHP Price</th>
-        <th>USD Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Basic Web Package</td>
-        <td>₱4,000</td>
-        <td>$400</td>
-      </tr>
-      <tr>
-        <td>Hourly Rate (Flexi)</td>
-        <td>₱200/hr</td>
-        <td>$20/hr</td>
-      </tr>
-      <tr>
-        <td>Add-On Feature</td>
-        <td>₱1,000</td>
-        <td>$100</td>
-      </tr>
-      <tr>
-        <td>Rush Fee</td>
-        <td>₱10,000</td>
-        <td>$1,000</td>
-      </tr>
-    </tbody>
-  </table>
-  <p class="note">Note: All prices are subject to a yearly increase of 5–7% based on inflation and experience growth.</p>
-</body>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=./error/error.html">
+        -->
+        <title>JPLFP WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        James Price List, FAQs, Policy Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="price.html">Price List</a>
+                        </li>
+                        <li>
+                            <a href="">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="">Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Web Development Service:</h2>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        You may check out the Link:
+                        <a href="webdev.html" class="button">Click Here</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2025 
+                        James Price List, FAQs, Policy Website. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
 </html>
