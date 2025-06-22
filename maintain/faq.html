@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=./error/error.html">
+        -->
+        <title>JPLFP WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        James Price List, FAQs, Policy Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="price.html">Price List</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="policy.html">Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <b>Q:</b>
+                        What’s included in the Basic Package?
+                    </p>
+                    <p>
+                        A 4-page static website (Home, About, Contact, and one custom page of your choice). Hosting for 1 year is included
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <b>Q:</b>
+                        How long will my project take?
+                    </p>
+                    <p>
+                        Each project takes about 7 days to complete. This may vary depending on project queue. Rush orders are available at additional cost.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <b>Q:</b>
+                        What if I need more than 4 pages?
+                    </p>
+                    <p>
+                        You can request an add-on service for each extra page or feature. These are billed separately.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <b>Q:</b>
+                        Can I request changes after I say it’s Final?
+                    </p>
+                    <p>
+                        No further edits will be allowed after confirmation. However, additional edits can be done under the Flexi hourly package.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Any More Questions not on the List above?</h3>
+                </div>
+                <div>
+                    <p>
+                        Contact us via our email:
+                    </p>
+                    <p>
+                        <a href="mailto:jamesliao09@yahoo.com" class="button">Email</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2025 
+                        James Price List, FAQs, Policy Website. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="menu.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
+</html>
