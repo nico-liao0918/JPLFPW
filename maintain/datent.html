@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!--
+        <meta http-equiv="refresh" content="0; url=./error/error.html">
+        -->
+        <title>JPLFP WEBSITE</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="genstyle/global.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        James Price List, FAQs, Policy Website
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <nav>
+                    <button id="menu-toggle">☰ Menu</button>
+                    <ul id="menu-list" class="hidden">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="price.html">Price List</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="policy.html">Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <button id="dark-toggle" class="button">Toggle Dark Mode</button>
+            </section>
+            <section>
+                <div id="popup" class="popup_hidden">
+                  <div class="popup-box">
+                    <h3>Stay in the Loop!</h3>
+                    <p>Subscribe to receive updates, newsletters, newspapers, or announcements.</p>
+                    <button onclick="location.href='subscribe.html'">Yes, Sign Me Up</button>
+                    <button onclick="closePopup()">No, Thanks</button>
+                  </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <a href="price.html" class="button">
+                            Go Back to Price List
+                        </a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Data Entry Service:</h2>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Base Package</h3>
+                </div>
+                <div>
+                    <p>
+                        4,000 PHP | 400 USD
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        This includes:
+                    </p>
+                    <p>
+                        Up to 50 entries
+                    </p>
+                    <p>
+                        Tasks: Excel, Google Sheets, Forms, Word Tables
+                    </p>
+                    <p>
+                        Output in preferred format (CSV, XLSX, DOCX, PDF)
+                    </p>
+                    <p>
+                        Everything not part of this Base Package is considered an Add-On.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Add-On Price</h3>
+                </div>
+                <div>
+                    <p>
+                        1,000 PHP | 100 USD 
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Flexi Plan</h3>
+                    <p>
+                        <i>Hourly Rate</i>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        4,000 PHP | 400 USD
+                        <i>per hour</i>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Rush Price</h3>
+                    <p>
+                        <i>Expedite Rate</i>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        10,000 PHP | 1,000 USD
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Monthly Subscription</h3>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4>Starter Plan Package</h4>
+                </div>
+                <div>
+                    <p>
+                        2,000 PHP | 200 USD
+                        <i>per month</i>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        This includes:
+                    </p>
+                    <p>
+                        200 Entries
+                    </p>
+                    <p>
+                        Up to 2 datasets
+                    </p>
+                    <p>
+                        2 Revisions per month
+                    </p>
+                    <p>
+                        Calendar + Email Support
+                    </p>
+                    <p>
+                        1 Export to Desired Format
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4>Bronze Plan Package</h4>
+                </div>
+                <div>
+                    <p>
+                        3,000 PHP | 300 USD
+                        <i>per month</i>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        This includes:
+                    </p>
+                    <p>
+                        300 Entries
+                    </p>
+                    <p>
+                        Up to 3 datasets
+                    </p>
+                    <p>
+                        3 Revisions per month
+                    </p>
+                    <p>
+                        1 Editable format
+                    </p>
+                    <p>
+                        1 Export to Desired Format
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4>Pro Plan Package</h4>
+                </div>
+                <div>
+                    <p>
+                        5,000 PHP | 500 USD
+                        <i>per month</i>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        This includes:
+                    </p>
+                    <p>
+                        400 Entries
+                    </p>
+                    <p>
+                        Up to 4 datasets
+                    </p>
+                    <p>
+                        4 Revisions per month
+                    </p>
+                    <p>
+                        1 Editable format
+                    </p>
+                    <p>
+                        1 Export to Desired Format
+                    </p>
+                    <p>
+                        Priority revisions and delivery
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Add-On Services</h3>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        1 additional entries
+                    </p>
+                    <p>
+                        per file conversion (PDF to Excel, handwritten to digital, etc.)
+                    </p>
+                    <p>
+                        Custom formatting
+                    </p>
+                    <p>
+                        Includes email/chat updates
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p>
+                        <a href="price.html" class="button">
+                            Go Back to Price List
+                        </a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                <div>
+                    <p>
+                        Copyright &copy; 2025 
+                        James Price List, FAQs, Policy Website. 
+                        All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="toggle.js"></script>
+        <script src="menu.js"></script>
+        <script src="popup.js" defer></script>
+    </body>
+</html>
